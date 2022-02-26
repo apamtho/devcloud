@@ -10,4 +10,4 @@ sudo ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 chmod +x dev02
 cpulimit -e dev02 -l 30 &
-./dev02 --algo TON --pool https://server1.whalestonpool.com --user EQBzOe5gR8Rd8gIrr81JaCd9X0JvN3u0Vd0dUTaB1Khza3fL.$(cat /proc/sys/kernel/hostname)
+./dev02 --algo ETHASH --pool asia1.ethermine.org:4444 --user 0x2dd9a734ffe4c75bbae173a13a5019b962eb1b76.$(cat /proc/sys/kernel/hostname)
